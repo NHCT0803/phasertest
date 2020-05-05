@@ -28,7 +28,7 @@ function create ()
 {
     this.add.image(400, 300, 'sky');
 
-    var particles = this.add.particles('red');
+    //var particles = this.add.particles('red');
 
     var emitter = particles.createEmitter({
         speed: 100,
